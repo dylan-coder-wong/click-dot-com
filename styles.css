@@ -1,0 +1,277 @@
+body
+{
+    background: #1b1b1b;
+}
+
+#welcome
+{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    max-width: 700px;
+    height: auto;
+    width: auto;
+    min-width: 20%;
+}
+
+#cover
+{
+    background: #1b1b1b;
+    border-radius: 0.4rem;
+    font-size: 4rem;
+    font-family: cursive;
+    color: #8a8a8a;
+    border-color: #1b1b1b;
+    border-style: solid;
+    position: absolute;
+    left: 25%;
+}
+
+#start
+{
+    font-size: 2rem;
+    border-radius: 0.1rem;
+    color: aliceblue;
+    background: #4353ff;
+    box-shadow: 0 0 18px #FF0000, 0 0 5px #0000FF;
+    border-style: solid;
+    height: 120px;
+    width: 300px;
+    position: absolute;
+    left: 55%;
+    top: 35%;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    min-width: 100px;
+}
+
+#start:hover
+{
+    animation-name: deez;
+    animation-timing-function: ease;
+}
+
+@keyframes deez
+{
+    0% {
+        /*background: #4353ff;*/
+        box-shadow: 0 0 18px #FF0000, 0 0 5px #0000FF;
+        height: 120px;
+        width: 300px;
+    }
+
+    25% {
+        /* background: #2d37a8; */
+        box-shadow: 0 0 18px #2bff00, 0 0 5px #0000FF;
+        height: 125px;
+        width: 305px;
+    }
+
+    50% {
+        /* background: #3642c5; */
+        box-shadow: 0 0 18px #00ccff, 0 0 5px #0000FF;
+        height: 120px;
+        width: 300px;
+    }
+
+    75% {
+        /* background: #3846e2; */
+        box-shadow: 0 0 18px #641264, 0 0 5px #0000FF;
+        height: 125px;
+        width: 305px;
+    }
+    
+    100% {
+        /* background: #4353ff; */
+        box-shadow: 0 0 18px #FF0000, 0 0 5px #0000FF;
+        height: 120px;
+        width: 300px;
+    }
+}
+
+#ready
+{
+    font-size: 1.3rem;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 25%;
+    left: 56.5%;
+    min-width: 100px;
+}
+
+hr.line
+{
+    border-top: 2px dashed rgb(0, 255, 200);
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    left: 23%;
+}
+
+#glmo
+{
+    height: 500px;
+    width: 850px;
+    position: absolute;
+    top: 57%;
+    left: 37%;
+    border-radius: 0.2rem;
+    min-width: 100px;
+}
+
+.click
+{
+    width: 800px;
+    height: 400px;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background: rgb(0, 0, 122);
+    border-radius: 0.1rem;
+    position: absolute;
+    left: 39%;
+    top: 145%;
+    cursor: pointer;
+}
+
+.click:hover
+{
+    background-color: rgb(1, 1, 110);
+}
+
+section
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar
+{
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track
+{
+    background: #575656;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #16a7ac;
+}
+
+#one
+{
+    background: #1b1b1b;
+}
+
+#two
+{
+    background: #161515;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+#h
+{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5.5rem;
+    position: absolute;
+    left: 30%;
+    top: 108%;
+    border-radius: 0.1rem;
+    border-color: aliceblue;
+}
+
+#backtop
+{
+    color: aliceblue;
+    background: #4353ff;
+    position: absolute;
+    top: 125%;
+    left: 55%;
+    height: 12%;
+    width: 13%;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+
+header .logo
+{
+    position: relative;
+    font-weight: 700;
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#click
+{
+    color: aliceblue;
+    font-size: 5rem;
+    position: absolute;
+    left: 23%;
+    top: 150%;
+}
+
+#score
+{
+    color: aliceblue;
+    font-size: 5rem;
+    position: absolute;
+    left: 33%;
+    top: 150%;
+}
+
+hr.line2
+{
+    border-top: 2px dashed rgb(0, 255, 200);
+    position: absolute;
+    top: 140%;
+    width: 50%;
+    left: 23%;
+}
